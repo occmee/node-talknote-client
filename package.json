@@ -1,11 +1,10 @@
 {
   "name": "node-talknote-client",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Talknote API Client for Node.js",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "test": "jest ./lib/__tests__/index.js",
-    "mock-server": "node ./lib/__tests__/mock/server.js"
+    "test": "jest"
   },
   "author": "occmee <occmee@gmail.com>",
   "license": "MIT",
