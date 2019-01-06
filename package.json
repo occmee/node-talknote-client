@@ -1,0 +1,23 @@
+{
+  "name": "node-talknote-client",
+  "version": "0.1.0",
+  "description": "Talknote API Client for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./lib/__tests__/index.js",
+    "mock-server": "node ./lib/__tests__/mock/server.js"
+  },
+  "author": "occmee <occmee@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "deep-extend": "^0.6.0",
+    "dotenv": "^6.2.0",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "json-server": "^0.14.2"
+  }
+}

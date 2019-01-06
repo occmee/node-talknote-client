@@ -1,0 +1,109 @@
+{
+  "dm": {
+    "status": 1,
+    "errors": null,
+    "data": {
+      "threads": [
+        {
+          "id": 0,
+          "last_feed_content": "string",
+          "last_posted_at": "string",
+          "member_names": "string",
+          "title": "string",
+          "unread_count": 0
+        }
+      ]
+    }
+  },
+  "dm_list": {
+    "status" : 1,
+    "errors" : null,
+    "data" : {
+      "msg": [
+        {
+          "id": "string",
+          "thread_message_id": "string",
+          "message": "string"
+        }
+      ]
+    }
+  },
+  "dm_unread": {
+    "status": 1,
+    "errors": null,
+    "data": {
+      "unread_count": 0,
+      "invite_count": 0
+    }
+  },
+  "dm_post": {
+    "status": 1,
+    "errors": null
+  },
+  "group": {
+    "status": 1,
+    "errors": null,
+    "data" : {
+      "groups": [
+        {
+          "id": 0,
+          "name": "string",
+          "description": null,
+          "open_status": 0,
+          "created_at": "string",
+          "updated_at": "string"
+        }
+      ]
+    }
+  },
+  "group_list": {
+    "status": 1,
+    "errors": null,
+    "data" : {
+      "msg": [
+        {
+          "id" : 0,
+          "activity_type": 0,
+          "check_count": 0,
+          "check_flag": 0,
+          "check_you": 0,
+          "message": "string",
+          "comment_array": {
+            "group_message_comment_id": 0,
+            "message_com": "string",
+            "user_name": "string",
+            "created_at": "string",
+            "updated_at": "string"
+          },
+          "network_id": 0,
+          "network_user_id": 0,
+          "position_name": null,
+          "created_at": "string",
+          "trigger_type": "0",
+          "unit_name": null,
+          "updated_at": "string",
+          "user_code": null,
+          "user_id": "0",
+          "user_name": "string",
+          "user_name_kana_mei": "string",
+          "user_name_kana_sei": "string",
+          "user_name_roma_mei": "string",
+          "user_name_roma_sei": "string",
+          "user_name_mei": "string",
+          "user_name_sei": "string"
+        }
+      ]
+    }
+  },
+  "group_unread": {
+    "status": 1,
+    "errors": null,
+    "data" : {
+      "unread_count": 0
+    }
+  },
+  "group_post": {
+    "status": 1,
+    "errors": null
+  }
+}
